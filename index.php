@@ -18,14 +18,14 @@
 
       <!-- ADD TASK FORM -->
       <div class="card card-body">
-        <form action="save_task.php" method="POST">
+        <form action="saveTask.php" method="POST">
           <div class="form-group">
             <input type="text" name="title" class="form-control" placeholder="Task Title" autofocus>
           </div>
           <div class="form-group">
             <textarea name="description" rows="2" class="form-control" placeholder="Task Description"></textarea>
           </div>
-          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
+          <input type="submit" name="saveTask" class="btn btn-success btn-block" value="Save Task">
         </form>
       </div>
     </div>
@@ -54,7 +54,7 @@
               <a href="edit.php?id=<?php echo $row['id']?>" class="btn btn-secondary">
                 <i class="fas fa-marker"></i>
               </a>
-              <a href="delete_task.php?id=<?php echo $row['id']?>" class="btn btn-danger">
+              <a href="deleteTask.php?id=<?php echo $row['id']?>" class="btn btn-danger">
                 <i class="far fa-trash-alt"></i>
               </a>
             </td>
