@@ -8,9 +8,8 @@ $conn = mysqli_connect(
   'php_mysql_crud'
 );
 //) or die(mysqli_erro($mysqli));
-if (isset($conn)){
-    echo 'DB está conectada';
-
-}
+//if (isset($conn)){
+//    echo 'DB está conectada';
+//}
 
 ?>
