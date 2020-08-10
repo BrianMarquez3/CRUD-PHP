@@ -33,10 +33,10 @@
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Created At</th>
-            <th>Action</th>
+            <th>Titulo</th>
+            <th>Descripcion</th>
+            <th>Fecha</th>
+            <th>Accion</th>
           </tr>
         </thead>
         <tbody>
