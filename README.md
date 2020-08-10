@@ -21,6 +21,7 @@ CREATE TABLE task(
 DESCRIBE task;
 
 ```
+![php](./images/crud3.PNG)
 
 ## Conexión a la base de datos
 
