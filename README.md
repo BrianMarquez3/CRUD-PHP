@@ -21,4 +21,21 @@ CREATE TABLE task(
 DESCRIBE task;
 
 ```
+
+## Conexión a la base de datos
+
+```
+<?php
+// Conexion con la base de datos
+session_start();
+
+$conn = mysqli_connect(
+  'localhost',
+  'root',
+  '',
+  'php_mysql_crud'
+)or die(mysqli_error($mysqli));
+
+
+```
 ![php](./images/crud.jpg)
