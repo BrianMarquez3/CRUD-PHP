@@ -6,7 +6,7 @@ Realizando CRUD (Create, Read, Update and Delete)
 
 ## Creación de la base de datos
 
-´´´
+```
 CREATE DATABASE php_mysql_crud;
 
 use php_mysql_crud;
@@ -20,5 +20,5 @@ CREATE TABLE task(
 
 DESCRIBE task;
 
-´´´
+```
 ![php](./images/crud.jpg)
